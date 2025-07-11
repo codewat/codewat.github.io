@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.red {
+  color: #f00;
+  font-weight: 700;
+}
+.pressStart {
+  font-family: "Rockwell", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  color: white; 
+  text-shadow: -8px 8px 3px #2a6333;
+}
+
+.skillset {
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+.skill {
+  float: left;
+  min-width: 200px;
+  height: 200px;
+  background: #2a6333;
+  border: 10px solid #583e3e;
+  
+  text-align: center;
+  padding: 10px;
+  margin: 0 100px;
+  cursor: pointer;
+   color: #edecec;
+    border-radius: 20px
+}
+.title {
+  padding: 10px 0;
+  margin: 25px 0;
+  background: #2a6333;
+  border: 10px solid #583e3e;
+  font-size: 1.6em;
+  color: #edecec;
+   border-radius: 20px
+  
+}
+.icon {
+  width: 100px;
+  margin: 10px;
+  padding-bottom: 7px;
+ 
+}
+body {
+  font-size: 1.5em;
+  background: #444;
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.class { 
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+}
+header {
+  width: 100%;
+  height: 600px;
+  background: url('../assets/images/classroom.jpeg');
+  background-size: 100% 200%;
+  background-position: center -300px;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 2em;
+  text-shadow: 3px 3px 7px #777;
+  border-bottom: 1px solid #000;
+}
+#about {
+  width: 100%;
+  height: 900px;
+}
+  #aboutLeft {
+    width: 50%;
+    height: 900px;
+    padding: 25px 50px;
+    padding-top: 50px;
+    float: left;
+    background: linear-gradient(to bottom, #787474 60%, #b5acac);
+    font-size: 1.3em;
+    border-right: 1px solid #000;
+  }
+    #aboutLeft > p {
+      margin: 20px 0;
+    }
+    #bioPic {
+      width: 350px;
+      border-radius: 50%;
+      
+      
+      float: left;
+      margin-right: 67px;
+      margin-bottom: 50px;
+    }
+  #aboutRight {
+    width: 50%;
+    height: 900px;
+    padding: 25px 50px;
+    float: left;
+    background: linear-gradient(to bottom, #b5acac 60%, #787474);
+    text-align: center;
+  }
+footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 18px;
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: .9em;
+  border-top: 1px solid #000;
+}
